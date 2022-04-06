@@ -3,7 +3,3 @@ travel_login001:
   password: "123456"
   expect: "系统主页"
 
-#travel_login002:
-#  username: "admin"
-#  password: "123456"
-#  expect: "1系统主页"
