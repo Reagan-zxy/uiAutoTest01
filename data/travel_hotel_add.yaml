@@ -1,0 +1,4 @@
+trave_hotel_add001:
+  hotel_add_name: "221大酒店"
+  hotel_add_price: "221"
+  expect: "保存成功"
