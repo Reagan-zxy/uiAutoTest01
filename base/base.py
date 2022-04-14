@@ -71,8 +71,6 @@ class Base:
     # 将图片写入报告方法 （私有）
     def __base_write_img(self):
         # 1.获取图片文件流
-        # allure.attach(self.driver.get_screenshot_as_png, "./image/err.png", allure.attachment_type.PNG)
         with open("./image/err.png", "rb") as f:
             # 2. 调用allure.attach附加方法
             allure.attach(f.read(), "错误原因：", allure.attachment_type.PNG)
-            # allure.attach("错误原因：", f.read(), allure.attachment_type.PNG)  在最新版 allure-pytest-2.9.45 中不能使用

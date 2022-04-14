@@ -1,2 +1,0 @@
-[32mINFO    [0m root:page_travel_login.py:34 正在调用后台管理系统登录业务方法，用户名：admin 密码：123456
-[32mINFO    [0m root:base.py:23 正在查找元素：['css selector', "[placeholder='请输入账号']"]
